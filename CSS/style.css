@@ -785,6 +785,10 @@ button {
   margin-right: 10px;
 }
 
+.soc-foot-item:last-child {
+  margin-right: 0;
+}
+
 /* Портфолио */
 
 .page-header {
@@ -847,6 +851,14 @@ button {
   margin-bottom: 50px;
 }
 
+.button-item {
+  margin-right: 8px;
+}
+
+.button-item:last-child {
+  margin-right: 0;
+}
+
 .filtr .button.all {
   color: var(--ptimary-lighte-color);
   background-color: var(--brand-color);
@@ -859,7 +871,6 @@ button {
   background-color: #f5f4fa;
 
   padding: 6px 22px;
-  margin-left: 8px;
 
   font-weight: 500;
   font-size: 16px;
@@ -868,7 +879,7 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
 
-  transition-property: background-color, color;
+  transition-property: background-color, color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -957,6 +968,8 @@ button {
 .link-card {
   display: block;
   text-decoration: none;
+
+  transition: box-shadow 250ms linear;
 }
 
 .link-card:hover,
