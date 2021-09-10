@@ -1183,7 +1183,6 @@ input {
   display: block;
   text-align: start;
   margin-bottom: 10px;
-  cursor: pointer;
 }
 
 .form-field:hover svg {
