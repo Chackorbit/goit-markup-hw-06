@@ -568,6 +568,10 @@ input:-webkit-autofill:active {
   background-color: var(--brand-color);
 }
 
+.social-links .link:focus svg {
+  fill: var(--ptimary-lighte-color);
+}
+
 .soc-link:hover svg,
 .soc-link:focus svg {
   fill: var(--ptimary-lighte-color);
@@ -709,6 +713,10 @@ input:-webkit-autofill:active {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.soc-footer:focus {
+  background-color: var(--brand-color);
 }
 
 .icon-footer {
@@ -1150,6 +1158,16 @@ input:-webkit-autofill:active {
   cursor: pointer;
 
   background-color: var(--background-color-foot-and-hero);
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+
+  letter-spacing: 0.03em;
+
+  color: var(--ptimary-lighte-color);
 }
 
 .but-send {
@@ -1272,6 +1290,9 @@ input:-webkit-autofill:active {
 }
 
 .modal-label {
+  display: block;
+  margin-bottom: 4px;
+
   font-family: Roboto;
   font-weight: 400;
   font-size: 12px;
