@@ -1067,6 +1067,7 @@ input:-webkit-autofill:active {
 
   opacity: 1;
   transition: opacity 250ms var(--timing-function);
+  z-index: 99;
 }
 
 .modal {
