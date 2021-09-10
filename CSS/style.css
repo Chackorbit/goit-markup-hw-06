@@ -687,7 +687,7 @@ input:-webkit-autofill:active {
 }
 
 .soc-container-footer {
-  margin-right: 93px;
+  margin-right: auto;
 }
 
 .join {
@@ -1119,10 +1119,6 @@ input:-webkit-autofill:active {
 .form-field-footer {
   display: flex;
   flex-wrap: nowrap;
-}
-
-.mailig {
-  width: 570px;
 }
 
 .mailing-title {
